@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="313dp">
+
+        <Button
+            android:id="@+id/b_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:onClick="onClick"
+            android:text="@string/b_down"
+            app:layout_constraintStart_toEndOf="@+id/b_left"
+            app:layout_constraintTop_toBottomOf="@+id/b_right" />
+
+        <Button
+            android:id="@+id/b_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="47dp"
+            android:onClick="onClick"
+            android:text="@string/b_right"
+            app:layout_constraintStart_toStartOf="@+id/b_down"
+            app:layout_constraintTop_toTopOf="@+id/b_up" />
+
+        <Button
+            android:id="@+id/b_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:onClick="onClick"
+            android:text="@string/b_left"
+            app:layout_constraintBottom_toTopOf="@+id/b_down"
+            app:layout_constraintEnd_toStartOf="@+id/b_up" />
+
+        <Button
+            android:id="@+id/b_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="onClick"
+            android:text="@string/b_up"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

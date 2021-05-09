@@ -1,0 +1,7 @@
+
+Fsquid:S00108)")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ
+Qsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Κ‚κX
+zsquid:UselessImportCheck"JRemove this unused import 'android.support.v7.widget.LinearLayoutManager'.(ν™½Ϊϊÿÿÿÿ8τ™¥“—-
+nsquid:S1192"KDefine a constant instead of duplicating this literal "highscores" 4 times.(Κ¤Σϋÿÿÿÿ8£’Ω——-
+nsquid:UselessImportCheck	"CRemove this unused import 'android.support.v7.widget.RecyclerView'.(Κασ8τ™¥“—-
+Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Set'.(φ²„¤ώÿÿÿÿ

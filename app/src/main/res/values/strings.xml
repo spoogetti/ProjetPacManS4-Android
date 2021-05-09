@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pac-Man</string>
+
+    <string name="b_up">UP</string>
+    <string name="b_down">DOWN</string>
+    <string name="b_left">LEFT</string>
+    <string name="b_right">RIGHT</string>
+    <string name="b_restart">Retry</string>
+    <string name="b_menu">Back to menu</string>
+    <string name="b_play">Play</string>
+    <string name="b_reset">Reset HighScores</string>
+
+    <string name="t_win">YOU WON</string>
+    <string name="t_lose">YOU LOST</string>
+    <string name="t_score">Score :</string>
+    <string name="t_highscore">Highscores</string>
+    <string name="mainmenupicture">MainMenuPicture</string>
+</resources>

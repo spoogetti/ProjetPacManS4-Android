@@ -1,0 +1,15 @@
+
+Usquid:S2696ì"6Make the enclosing method "static" or remove this set.(æÓÆà8Î¦ÍÂ˜-
+Usquid:S2696©"6Make the enclosing method "static" or remove this set.(ğİÉ·8Î¦ÍÂ˜-
+Tsquid:S2696C"6Make the enclosing method "static" or remove this set.(ÌáÄ³8Î¦ÍÂ˜-
+Usquid:S2696Ş"6Make the enclosing method "static" or remove this set.(Ÿ£Ûş8Î¦ÍÂ˜-
+]squid:S1854†"9Remove this useless assignment to local variable "sizeY".(°Ä¨¬şÿÿÿÿ8Î¦ÍÂ˜-
+Ysquid:S2696D"6Make the enclosing method "static" or remove this set.(Á£ùâøÿÿÿÿ8Î¦ÍÂ˜-
+Msquid:S2696E"6Make the enclosing method "static" or remove this set.(Õë„Ó
+osquid:S1192@"QDefine a constant instead of duplicating this literal "levelRessourceId" 3 times.(ŸÕ—†8Î¦ÍÂ˜-
+Usquid:S2696ë"6Make the enclosing method "static" or remove this set.(Ÿ£Ûş8Î¦ÍÂ˜-
+Gsquid:S1148÷"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Î¦ÍÂ˜-
+Usquid:S2696ß"6Make the enclosing method "static" or remove this set.(æÓÆà8Î¦ÍÂ˜-
+Nsquid:S1481†"*Remove this unused "sizeY" local variable.(°Ä¨¬şÿÿÿÿ8Î¦ÍÂ˜-
+Hsquid:S00108A")Either remove or fill this block of code.(•™ê8Û‚úÂ˜-
+Gsquid:S1148ş"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Î¦ÍÂ˜-

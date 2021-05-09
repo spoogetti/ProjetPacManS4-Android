@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WinLoseActivity">
+
+    <TextView
+        android:id="@+id/t_win"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/t_win"
+        android:textSize="@android:dimen/notification_large_icon_width" />
+
+    <TextView
+        android:id="@+id/t_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/t_score"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <TextView
+        android:id="@+id/t_scoreValue"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="end"
+        android:text="@android:string/yes"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <Button
+        android:id="@+id/b_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_restart"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/b_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_menu"
+        android:onClick="onClick"/>
+
+</LinearLayout>

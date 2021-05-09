@@ -1,0 +1,5 @@
+
+csquid:HiddenFieldCheck\":Rename "ghosts" which hides the field declared at line 17.(†’Ò¢8¸°ıÚ˜-
+ssquid:UselessImportCheck"IRemove this unused import 'com.example.pac_man.model.ghosts.YellowGhost'.(×¤Z8ÙÅœÛ˜-
+†squid:S1319G"oThe type of the "grid" object should be an interface such as "List" rather than the implementation "ArrayList".(¥»şó
+6squid:S1700"Rename field "grid"(½ÒÑ§üÿÿÿÿ8Ò™èÂ˜-
